@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Profile</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="css\bootstrap-4.2.1-dist\css\bootstrap.min.css">
+  <script src="css\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css\main.css">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">WN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Jumbotron Head-->
+    <div class="jumbotron jumbotron-fluid jj1">
+        <div class="container">
+          <h1 class="display-4">World News</h1>
+          <p class="lead">Bringing you the latest.</p>
+        </div>
+      </div>
+      <!--Main Article-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-12">
+            <h1>BREAKING NEWS</h1>
+              <div class="row">
+                <div class="card ">
+                  <div class="card-body">
+                    <h3 class="card-title"><a href="https://www.bbc.co.uk/news/world-us-canada-46805568" target="_blank">Trump escalates migrant wall stand-off</a></h3>
+                    <p class="card-text">US President Donald Trump has made his first TV address to the nation from the Oval Office, escalating a stand-off with Congress that has led to an 18-day partial government shutdown.</p>
+                    <p class="card-text"><small class="text-muted">Anthony Zurcher: Last updated 3 mins ago</small></p>
+                    <a href="https://www.bbc.co.uk/news/world-us-canada-46805568" target="_blank"></a><img src="img/breaking.jpg" class="img-fluid" alt="Responsive images" max-width="100%" height="auto"></a>
+                  </div>
+                </div>
+              </div> 
+          </div> 
+          
+          <!--Recent Headlines-->  
+          
+          <div class="col-md-3 col-sm-12" style="width: 18rem;">
+            <h4>RECENT</h4>
+            <div class="row">
+              <div class="card-body">
+                <a href="https://www.bbc.co.uk/news/uk-england-london-46804698" target="_blank"><img src="img/moped.jpg" class="img-fluid" alt="Responsive images" max-width="100%" height="auto"></a>
+                <h5 class="card-title"><a href="https://www.bbc.co.uk/news/uk-england-london-46804698" target="_blank">Moped crash boy, 14, stabbed to death</a></h5>
+                  <p class="card-text">Police are looking for three men believed to have killed the teenager after knocking him off a moped.</p>
+                  <a href="https://www.bbc.co.uk/news/uk-england-london-46804698" target="_blank" class="btn">Go to article</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card-body">
+                <a href="https://www.bbc.co.uk/news/world-australia-46806485" target="_blank"><img src="img/Al-Qanun.jpg" class="img-fluid" alt="Responsive images" max-width="100%" height="auto"></a>
+                <h5 class="card-title"><a href="https://www.bbc.co.uk/news/world-australia-46806485" target="_blank">UN 'considers Saudi woman a refugee'</h5>
+                <p class="card-text">Saudi woman who fled her family and refused to leave a Bangkok hotel has been declared a legitimate refugee by the UN..</p>
+                <a href="https://www.bbc.co.uk/news/world-australia-46806485" target="_blank" class="btn">Go to Article</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card-body">
+                <a href="https://www.bbc.co.uk/news/technology-46804788" target="_blank"><img src="img/mainimg.jpg" class="img-fluid" alt="Responsive images" max-width="100%" height="auto"></a>
+                <h5 class="card-title"><a href="https://www.bbc.co.uk/news/technology-46804788" target="_blank">Breath-test gadgets tell you what to eat</a></h5>
+                <p class="card-text">Can breath-sniffing gadgets improve your diet?</p>
+                <a href="https://www.bbc.co.uk/news/technology-46804788" target="_blank" class="btn">Go to Article</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <!--Carousel-->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" max-height="300px">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="carsimglink" href="https://www.livescience.com/64345-amazing-brain-2018.html" target="_blank"><img src="img/brain.jpg" class="d-block w-100 h-auto image-fluid" alt="Responsive images"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h3><a class="carslink" href="https://www.livescience.com/64345-amazing-brain-2018.html" target="_blank">10 Things We Learned About the Brain in 2018</a></h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <a class="carsimglink" href="https://www.livescience.com/64452-spinning-black-holes-open-gentle-time-portals.html" target="_blank"><img src="img/wormhole.jpg" class="d-block w-100 h-auto image-fluid" alt="Responsive images"></a>
+              <div class="carousel-caption d-none d-md-block">
+                  <h3><a class="carslink" href="https://www.livescience.com/64452-spinning-black-holes-open-gentle-time-portals.html" target="_blank">Spinning Black Holes Could Open Up Gentle Portals for Hypersonic Spacecraft</a></h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <a class="carsimglink" href="https://www.livescience.com/64459-blue-whale.html" target="_blank"><img src="img/blue whale.jfif" class="d-block w-100 h-auto image-fluid" alt="Responsive images">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3><a class="carslink" href="https://www.livescience.com/64459-blue-whale.html" target="_blank">Blue Whales: The Most Enormous Creatures on Earth</a></h3>
+                </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>    
+
+    <!--Footer Jumbotron-->    
+    <footer>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 offset-4">
+              <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col-2 offset-10">  
+              <ul>
+                <li>World</li>
+                <li>Sport</li>
+                <li>Science</li>
+                <li>Politics</li>
+                <li>Tech</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+    </footer>
+  
+</body>
+</html>

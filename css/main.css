@@ -1,0 +1,74 @@
+.navbar {
+  background-color: gray;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+
+
+h1.display-4 {
+  font-weight: 500;
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron {
+  background-image: url(world.jfif);
+  background-size: cover;
+}
+
+footer .jumbotron {
+  background-image: url(photo-1539657523674-fbd149b04c13.jfif);
+  filter: grayscale(100%) blur(0.7px);
+}
+
+.btn {
+  background-color: gray;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #007bff;
+  color: white;
+  transition: .2s;
+  transform: scale(1.5);
+  
+}
+
+h3 a,
+h5 a {
+  color: gray;
+}
+
+h3 a:hover {
+  color: #007bff;
+}
+
+h5 a:hover {
+  color: #007bff;
+}
+
+#carouselExampleIndicators h3 a {
+  color: white;
+}
+
+.carousel-item img:hover {
+  opacity: 0.5;
+}
+
+i {
+  background-color: white;
+}
+
+footer ul {
+  color: white;
+  list-style: none;
+  font-weight: 600px;
+}
+
